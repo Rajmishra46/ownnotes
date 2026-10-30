@@ -1,0 +1,7 @@
+name: notes_core
+description: Note models, SQLite schema and search for OwnNotes.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

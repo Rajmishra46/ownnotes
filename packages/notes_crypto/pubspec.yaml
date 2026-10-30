@@ -1,0 +1,7 @@
+name: notes_crypto
+description: Vault key management and envelope encryption for OwnNotes.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0

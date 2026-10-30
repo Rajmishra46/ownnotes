@@ -1,0 +1,10 @@
+name: provider_s3
+description: S3-compatible StorageProvider for OwnNotes (MinIO, R2, B2, Wasabi).
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  provider_api: any

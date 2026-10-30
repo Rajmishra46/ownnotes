@@ -1,0 +1,11 @@
+name: sync_sim
+description: Simulates several devices syncing through one provider and checks convergence.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  provider_api: any
+  notes_sync: any

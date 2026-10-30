@@ -1,0 +1,13 @@
+.dart_tool/
+.packages
+build/
+pubspec_overrides.yaml
+*.iml
+.idea/
+.vscode/
+.DS_Store
+coverage/
+**/ios/Pods/
+**/android/.gradle/
+**/android/local.properties
+*.env

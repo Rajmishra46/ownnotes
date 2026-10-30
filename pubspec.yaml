@@ -1,0 +1,25 @@
+name: ownnotes_workspace
+publish_to: none
+
+environment:
+  sdk: ^3.6.0
+
+workspace:
+  - apps/notes_app
+  - packages/provider_api
+  - packages/notes_core
+  - packages/notes_crypto
+  - packages/notes_sync
+  - packages/providers/provider_gdrive
+  - packages/providers/provider_webdav
+  - packages/providers/provider_s3
+  - tools/sync_sim
+
+dev_dependencies:
+  melos: ^7.0.0
+
+melos:
+  scripts:
+    analyze: melos exec -- dart analyze .
+    test: melos exec --dir-exists=test -- dart test
+    sim: dart run tools/sync_sim/bin/sync_sim.dart

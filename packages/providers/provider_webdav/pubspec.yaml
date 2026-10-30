@@ -1,0 +1,10 @@
+name: provider_webdav
+description: WebDAV StorageProvider for OwnNotes (Nextcloud, Synology, ownCloud).
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  provider_api: any

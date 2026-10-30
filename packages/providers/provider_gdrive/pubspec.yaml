@@ -1,0 +1,10 @@
+name: provider_gdrive
+description: Google Drive StorageProvider for OwnNotes.
+publish_to: none
+resolution: workspace
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  provider_api: any
